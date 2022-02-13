@@ -1,6 +1,6 @@
 import React from "react";
 
-export default class Clock extends React.Component<{}, {date: Date}> {
+export default class Clock extends React.Component<{}, { date: Date }> {
   private timerID: number;
 
   constructor(props) {
