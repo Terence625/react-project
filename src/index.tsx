@@ -11,7 +11,7 @@ import NumberList from "./component/lists-and-keys/NumberList";
 import Blog from "./component/lists-and-keys/Blog";
 // ========================================
 
-// ReactDOM.render(<Game />, document.getElementById("root"));
+ReactDOM.render(<Game />, document.getElementById("root"));
 
 // ReactDOM.render(<App />, document.getElementById("root"));
 
@@ -29,8 +29,8 @@ import Blog from "./component/lists-and-keys/Blog";
 // const numbers = [1, 2, 3, 4, 5];
 // ReactDOM.render(<NumberList numbers={numbers} />, document.getElementById("root"));
 
-const posts = [
-  { id: 1, title: "Hello World", content: "Welcome to learning React!" },
-  { id: 2, title: "Installation", content: "You can install React from npm." },
-];
-ReactDOM.render(<Blog posts={posts} />, document.getElementById("root"));
+// const posts = [
+//   { id: 1, title: "Hello World", content: "Welcome to learning React!" },
+//   { id: 2, title: "Installation", content: "You can install React from npm." },
+// ];
+// ReactDOM.render(<Blog posts={posts} />, document.getElementById("root"));
